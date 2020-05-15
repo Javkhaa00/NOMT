@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import FrontPage from "./component/FrontPage";
+import Footer from "./component/footer";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <FrontPage />
+      <Footer />
     </div>
   );
 }
