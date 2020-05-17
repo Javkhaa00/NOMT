@@ -1,6 +1,7 @@
 import React from "react";
 import "./Register.scss";
-import Header from "../Header"
+import Header from "../Header/Header"
+import Footer from "../Footer/footer"
 
 const Register = () => {
 	return (
@@ -23,6 +24,7 @@ const Register = () => {
 					ACADEMY
                 </h1>
 			</div>
+			<Footer />
 		</div>
 	);
 };
