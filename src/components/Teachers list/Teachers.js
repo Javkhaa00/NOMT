@@ -3,7 +3,7 @@ import Header from '../Header/Header'
 import teach from '../assets/teach.png'
 import './Teachers.scss'
 import downButton from '../assets/icons/arrowDown.png'
-import TeacherCard from '../TeacherCard.js'
+import TeacherCard from '../Teachers card/TeacherCard.js'
 import sofwareImage from '../assets/Layer_1.png'
 
 
