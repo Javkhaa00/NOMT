@@ -8,8 +8,6 @@ import {
   Route,
   // Link
 } from "react-router-dom";
-import Teachers from "./component/Teachers";
-import TeacherPro from "./component/TeacherPro";
 import Register from "./component/register/Register"
 import Teachers from "./components/TeachersList/Teachers";
 import TeacherPro from "./components/TeacherProfile/TeacherPro";
