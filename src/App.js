@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Teachers from "./component/Teachers";
 import TeacherPro from "./component/TeacherPro";
+import Register from "./component/register/Register"
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/">
           <FrontPage />
+        </Route>
+        <Route path="/register">
+          <Register />
         </Route>
       </Switch>
       <Footer />
