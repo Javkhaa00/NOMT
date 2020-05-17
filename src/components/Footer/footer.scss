@@ -2,9 +2,16 @@
     color: black;
     margin: 0;
     width: 100%;
-    background-color: #4FC0D7;
+    background-color: #4fc0d7;
+    .line {
+        height: 3px;
+        background: linear-gradient(90deg, #4fc0d7 0%, white 50%, #4fc0d7 100%);
+    }
+    .footer-copyright {
+        background-color: #4fc0d7;
+    }
     .container {
-        margin-top: 1vw;
+        margin-top: 0.5vw;
         height: 40px;
     }
 }
