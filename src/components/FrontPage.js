@@ -142,7 +142,7 @@ const FrontPage = () => {
             <div className="signup col l8 m8 offset-l2 offset-m2 row">
                 <h1 className="col l8 m6 offset-l2 offset-m2 center" style={{ fontWeight: "bold" }}>оюундаа хөрөнгө оруулахад бэлэн үү?</h1>
                 <h5 className="col l8 m6 offset-l2 offset-m2 center">Өөрийн ирээдүйгээ гайхалтай болгоорой</h5>
-                <a href="/" className="btn col l3 offset-l5"><h6 style={{ fontWeight: "bold", fontSize: '1.7vw' }}>Бүртгүүлэх</h6></a>
+                <a style={{marginLeft:'24.2vw'}} href="/" className="btn col l3"><h6 style={{ fontWeight: "bold", fontSize: '1.7vw' }}>Бүртгүүлэх</h6></a>
             </div>
         </div>
     )
