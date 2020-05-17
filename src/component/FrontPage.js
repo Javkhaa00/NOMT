@@ -1,52 +1,53 @@
 import React from 'react';
 import './FrontPage.scss'
-import Clock from './image/clock icon.png'
-import Money from './image/Price icon.png'
-import Monitor from './image/view icon.png'
-import Trust from './image/trusted icon.png'
-import Phone from './image/Group.png'
-import Message from './image/Group (1).png'
-import Document from './image/Group (2).png'
-import Book from './image/Group (3).png'
-import school1 from './image/school1.png'
-import school2 from './image/school2.png'
-import school3 from './image/school3.png'
-import school4 from './image/school4.png'
-import school5 from './image/school5.png'
-import school6 from './image/school6.png'
-import logo from './image/logo.png'
-import Teacher from './Teacher';
+import Clock from './image/icons/clock icon.png'
+import Money from './image/icons/Price icon.png'
+import Monitor from './image/icons/view icon.png'
+import Trust from './image/icons/trusted icon.png'
+import Phone from './image/icons/Group.png'
+import Message from './image/icons/Group (1).png'
+import Document from './image/icons/Group (2).png'
+import Book from './image/icons/Group (3).png'
+import school1 from './image/schools/school1.png'
+import school2 from './image/schools/school2.png'
+import school3 from './image/schools/school3.png'
+import school4 from './image/schools/school4.png'
+import school5 from './image/schools/school5.png'
+import school6 from './image/schools/school6.png'
+import school7 from './image/schools/school7.png'
+import school8 from './image/schools/school8.png'
+import downButton from './image/icons/arrowDown.png'
+import Header from './Header.js'
+import TeacherCard from './TeacherCard';
 
 const FrontPage = () => {
 
     const teacherInfo = [
         {
-            name: 'Мандах',
-            lesson: 'Reading, Listening',
-            university: 'melbourne university'
+            name: 'Ану',
+            lesson: 'HSK Level 1, 2, 3, 4',
+            image: 'anu'
         },
         {
-            name: 'Баяржаргал',
-            lesson: 'Writing, Speaking',
-            university: 'university'
+            name: 'Сайнбилэгт',
+            lesson: 'Physics, JUAP',
+            image: 'sainbilegt'
         },
         {
-            name: 'Цолмон',
-            lesson: 'Physics',
-            university: 'MIT university'
+            name: 'Билгүүн',
+            lesson: 'Math',
+            image: 'bilguun'
+        },
+        {
+            name: 'Отгонтөгс',
+            lesson: 'Japan' ,
+            image: 'otgontugs'
         }
     ]
 
     return (
         <div className="mainDiv row">
-            <nav className="col l10 m10 offset-l1 offset-m1 row">
-                <a href="/" className="brand-logo col l1 m1 offset-l1 offset-m1"><img alt="logo" src={logo} /></a>
-                <div id="nav-mobile" className="navbar left col l4 m4 offset-l2 offset-m2 row">
-                    <a className="black-text col l6 m6" href="/">Сургалтууд</a>
-                    <a className="black-text col l6 m6" href="/">About us</a>
-                </div>
-                <a className="right black-text" href="/">Нэвтрэх | бүртгүүлэх</a>
-            </nav>
+            <Header />
             <div className="first-text row col l10 m10 offset-l1 offset-m1">
                 <div className="col l6 m6">
                     <h1 className="inspiration">
@@ -63,6 +64,21 @@ const FrontPage = () => {
                     ONLINE
                     ACADEMY
                 </h1>
+            </div>
+            <img alt="down" src={downButton} className="down_button circle col l0 m0 offset-m6 offset-l6"></img>
+            <div className="schools col l10 m10 offset-l1 offset-m1 row">
+                <div className="col l12 m12 row">
+                    <img className="col l3 m3" alt="school1" src={school1} />
+                    <img className="col l3 m3" alt="school2" src={school2} />
+                    <img className="col l3 m3" alt="school3" src={school3} />
+                    <img className="col l3 m3" alt="school4" src={school4} />
+                </div>
+                <div className="col l12 m12 row">
+                    <img className="col l3 m3" alt="school5" src={school5} />
+                    <img className="col l3 m3" alt="school6" src={school6} />
+                    <img className="col l3 m3" alt="school7" src={school7} />
+                    <img className="col l3 m3" alt="school8" src={school8} />
+                </div>
             </div>
             <div className="advantage-container col l10 m10 offset-l1 offset-m1 row">
                 <div className="col l12 m12 row">
@@ -114,22 +130,14 @@ const FrontPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="schools col l10 m10 offset-l1 offset-m1 row">
-                <img className="col l2 m2" alt="school1" src={school1} />
-                <img className="col l2 m2" alt="school2" src={school2} />
-                <img className="col l2 m2" alt="school3" src={school3} />
-                <img className="col l2 m2" alt="school4" src={school4} />
-                <img className="col l2 m2" alt="school5" src={school5} />
-                <img className="col l2 m2" alt="school6" src={school6} />
-            </div>
-            <div className="teachers col l10 m10 offset-l1 offset-m1">
+            <div className="teacher_cards col l10 m10 offset-l1 offset-m1">
                 <h1 className="center" style={{ fontWeight: "bold" }}>Багш нар</h1>
-                <div className="row">
+                <div className="row cardContainer">
                     {
-                        teacherInfo.map((cur, index) => <Teacher key={index} name={cur.name} lesson={cur.lesson} university={cur.university} />)
+                        teacherInfo.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
                     }
                 </div>
-                <a href="/" className="btn col l2 offset-l10"><h5 style={{ fontWeight: "bold" }}>Бүх багш</h5></a>
+                <a href="/" className="btn col l2 offset-l9"><h5 style={{ fontWeight: "bold" }}>Бүх багш</h5></a>
             </div>
             <div className="signup col l8 m8 offset-l2 offset-m2 row">
                 <h1 className="col l8 m6 offset-l2 offset-m2 center" style={{ fontWeight: "bold" }}>оюундаа хөрөнгө оруулахад бэлэн үү?</h1>
