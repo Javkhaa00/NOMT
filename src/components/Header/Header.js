@@ -10,7 +10,7 @@ const Header = () => {
             <div id="nav-mobile" className="navbar left col l7 m7 offset-l2 offset-m2 row">
                 <a className="black-text titles" href="/">Сургалтууд</a>
                 <a className="black-text titles" href="/">Бидний тухай</a>
-                <a className="black-text titles" href="/">Холбоо арих</a>
+                <a className="black-text titles" href="/">Холбоо барих</a>
                 <a className="black-text titles" href="/">Төлбөр тооцоо</a>
             </div>
             <a className="right black-text" href="/">Нэвтрэх | Бүртгүүлэх</a>
