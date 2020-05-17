@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import FrontPage from "./component/FrontPage";
-import Footer from "./component/footer";
+import FrontPage from "./components/FrontPage";
+import Footer from "./components/Footer/footer";
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,6 +11,8 @@ import {
 import Teachers from "./component/Teachers";
 import TeacherPro from "./component/TeacherPro";
 import Register from "./component/register/Register"
+import Teachers from "./components/Teachers list/Teachers";
+import TeacherPro from "./components/TeacherProfile/TeacherPro";
 
 function App() {
   return (

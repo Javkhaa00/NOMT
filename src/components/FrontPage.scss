@@ -5,11 +5,11 @@ body {
 }
 
 .mainDiv {
-    width: 99vw;
+    // width: 99vw;
     // height: 300vw;
     background-color: #86dbec;
     margin-bottom: 0;
-    background: url('./image/bc.png');
+    background: url('./assets/bc.png');
     background-size: 100% 100%;
 }
 
@@ -17,6 +17,7 @@ body {
     margin-top: 3vw;
     // font-family: fira sans;
     .inspiration {
+        font-size: 4vw;
         margin-top: 10vw;
         font-weight: bold;
     }
@@ -77,14 +78,16 @@ body {
     height: 40vw;
     margin-top: 16vw;
     margin-bottom: 16vw;
-    background-image: url('./image/icons/Nomt.png');
+    background-image: url('./assets/icons/Nomt.png');
     background-size: 100% 100%;
     h1 {
+        font-size: 4vw;
         margin-top: 14vw;
     }
 }
 
 .down_button {
+    margin-top: 0 !important;
     padding: 0 !important;
     height: 50px;
     width: 50px;

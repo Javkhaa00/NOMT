@@ -1,23 +1,23 @@
 import React from 'react';
 import './FrontPage.scss'
-import Clock from './image/icons/clock icon.png'
-import Money from './image/icons/Price icon.png'
-import Monitor from './image/icons/view icon.png'
-import Trust from './image/icons/trusted icon.png'
-import Phone from './image/icons/Group.png'
-import Message from './image/icons/Group (1).png'
-import Document from './image/icons/Group (2).png'
-import Book from './image/icons/Group (3).png'
-import school1 from './image/schools/school1.png'
-import school2 from './image/schools/school2.png'
-import school3 from './image/schools/school3.png'
-import school4 from './image/schools/school4.png'
-import school5 from './image/schools/school5.png'
-import school6 from './image/schools/school6.png'
-import school7 from './image/schools/school7.png'
-import school8 from './image/schools/school8.png'
-import downButton from './image/icons/arrowDown.png'
-import Header from './Header.js'
+import Clock from './assets/icons/clock icon.png'
+import Money from './assets/icons/Price icon.png'
+import Monitor from './assets/icons/view icon.png'
+import Trust from './assets/icons/trusted icon.png'
+import Phone from './assets/icons/Group.png'
+import Message from './assets/icons/Group (1).png'
+import Document from './assets/icons/Group (2).png'
+import Book from './assets/icons/Group (3).png'
+import school1 from './assets/schools/school1.png'
+import school2 from './assets/schools/school2.png'
+import school3 from './assets/schools/school3.png'
+import school4 from './assets/schools/school4.png'
+import school5 from './assets/schools/school5.png'
+import school6 from './assets/schools/school6.png'
+import school7 from './assets/schools/school7.png'
+import school8 from './assets/schools/school8.png'
+import downButton from './assets/icons/arrowDown.png'
+import Header from './Header/Header.js'
 import TeacherCard from './TeacherCard';
 
 const FrontPage = () => {
@@ -137,12 +137,12 @@ const FrontPage = () => {
                         teacherInfo.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
                     }
                 </div>
-                <a href="/teachers" className="btn col l2 offset-l9"><h5 style={{ fontWeight: "bold" }}>Бүх багш</h5></a>
+                <a href="/teachers" className="btn col l2 offset-l9"><h5 style={{ fontWeight: "bold", fontSize: '1.7vw' }}>Бүх багш</h5></a>
             </div>
             <div className="signup col l8 m8 offset-l2 offset-m2 row">
                 <h1 className="col l8 m6 offset-l2 offset-m2 center" style={{ fontWeight: "bold" }}>оюундаа хөрөнгө оруулахад бэлэн үү?</h1>
                 <h5 className="col l8 m6 offset-l2 offset-m2 center">Өөрийн ирээдүйгээ гайхалтай болгоорой</h5>
-                <a href="/" className="btn col l2 offset-l5"><h5 style={{ fontWeight: "bold" }}>Бүртгүүлэх</h5></a>
+                <a href="/" className="btn col l3 offset-l5"><h6 style={{ fontWeight: "bold", fontSize: '1.7vw' }}>Бүртгүүлэх</h6></a>
             </div>
         </div>
     )

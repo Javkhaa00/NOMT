@@ -1,19 +1,19 @@
 import React from 'react'
-import anu from './image/teachers/anu.png'
-import bilguun from './image/teachers/bilguun.png'
-import otgontugs from './image/teachers/otgontugs.png'
-import sainbilegt from './image/teachers/sainbilegt.png'
-import ashid from './image/teachers/ashid.png'
-import bayarjargal from './image/teachers/bayarjargal.png'
-import ezenbaatar from './image/teachers/ezenbaatar.png'
-import herlen from './image/teachers/herlen.png'
-import huslen from './image/teachers/huslen.png'
-import javkha from './image/teachers/javkha.png'
-import mandah from './image/teachers/mandah.png'
-import munguldei from './image/teachers/munguldei.png'
-import namuungoo from './image/teachers/namuungoo.png'
-import tselmeg from './image/teachers/tselmeg.png'
-import tsolmon from './image/teachers/tsolmon.png'
+import anu from './assets/teachers/anu.png'
+import bilguun from './assets/teachers/bilguun.png'
+import otgontugs from './assets/teachers/otgontugs.png'
+import sainbilegt from './assets/teachers/sainbilegt.png'
+import ashid from './assets/teachers/ashid.png'
+import bayarjargal from './assets/teachers/bayarjargal.png'
+import ezenbaatar from './assets/teachers/ezenbaatar.png'
+import herlen from './assets/teachers/herlen.png'
+import huslen from './assets/teachers/huslen.png'
+import javkha from './assets/teachers/javkha.png'
+import mandah from './assets/teachers/mandah.png'
+import munguldei from './assets/teachers/munguldei.png'
+import namuungoo from './assets/teachers/namuungoo.png'
+import tselmeg from './assets/teachers/tselmeg.png'
+import tsolmon from './assets/teachers/tsolmon.png'
 
 
 const TeacherCard = (cin) => {
@@ -80,8 +80,8 @@ const TeacherCard = (cin) => {
                 }
             </div>
             <div className="card-content">
-                <h4 style={{ fontWeight: "bold" }}>{name}</h4>
-                <h5>{lesson}</h5>
+                <h4 style={{ fontWeight: "bold", fontSize: '2.1vw' }}>{name}</h4>
+                <h5 style={{fontSize: '1.4vw' }}>{lesson}</h5>
             </div>
         </div>
     )

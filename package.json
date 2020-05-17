@@ -6,7 +6,11 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+<<<<<<< HEAD
     "bulma": "^0.8.2",
+=======
+    "firebase": "^7.14.4",
+>>>>>>> f0a63884e791b4b1ba0c87579cf3aa1594a72c1e
     "materialize-css": "^1.0.0-rc.2",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
@@ -35,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
