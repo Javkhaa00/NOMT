@@ -1,0 +1,91 @@
+body {
+    font-family: fira sans;
+    font-weight: 400;
+    color: #222222;
+}
+
+.mainDiv {
+    width: 99vw;
+    // height: 300vw;
+    background-color: #86dbec;
+    margin-bottom: 0;
+    background: url('./image/bc.png');
+    background-size: 100% 100%;
+}
+
+.first-text {
+    margin-top: 3vw;
+    // font-family: fira sans;
+    .inspiration {
+        margin-top: 10vw;
+        font-weight: bold;
+    }
+    .intro {
+        font-family: Bebas Neue;
+        font-size: 10vw;
+        font-weight: normal;
+        color: #3f83e8;
+    }
+}
+
+.advantage-container {
+    margin-top: 4vw;
+}
+
+.advantage {
+    margin-top: 8vw;
+    h3 {
+        font-weight: bold;
+    }
+}
+
+.schools {
+    margin-top: 16vw;
+}
+
+.teacher_cards {
+    margin-top: 10vw;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 16vw;
+    margin-top: 2vw;
+    padding: 0px !important;
+    background-color: transparent;
+    box-shadow: none;
+    img {
+        border-radius: 10px;
+    }
+}
+
+.btn {
+    margin-top: 2vw;
+    height: 50px;
+    background-color: #3F83E8;
+    border-radius: 32px;
+    h5 {
+        margin-top: 13px;
+    }
+}
+
+.signup {
+    height: 40vw;
+    margin-top: 16vw;
+    margin-bottom: 16vw;
+    background-image: url('./image/icons/Nomt.png');
+    background-size: 100% 100%;
+    h1 {
+        margin-top: 14vw;
+    }
+}
+
+.down_button {
+    padding: 0 !important;
+    height: 50px;
+    width: 50px;
+}
