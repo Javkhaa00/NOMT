@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdd2e290.chunk.css",
-    "main.js": "/static/js/main.1e378332.chunk.js",
-    "main.js.map": "/static/js/main.1e378332.chunk.js.map",
+    "main.css": "/static/css/main.29cec52e.chunk.css",
+    "main.js": "/static/js/main.fa545af7.chunk.js",
+    "main.js.map": "/static/js/main.fa545af7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5a430776.js",
     "runtime-main.js.map": "/static/js/runtime-main.5a430776.js.map",
-    "static/js/2.81e38575.chunk.js": "/static/js/2.81e38575.chunk.js",
-    "static/js/2.81e38575.chunk.js.map": "/static/js/2.81e38575.chunk.js.map",
+    "static/js/2.b5ffe5a3.chunk.js": "/static/js/2.b5ffe5a3.chunk.js",
+    "static/js/2.b5ffe5a3.chunk.js.map": "/static/js/2.b5ffe5a3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c28ff72930181eeace3c4f7ccea7daa5.js": "/precache-manifest.c28ff72930181eeace3c4f7ccea7daa5.js",
+    "precache-manifest.4c0d250fae17362d7864b68527df595e.js": "/precache-manifest.4c0d250fae17362d7864b68527df595e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fdd2e290.chunk.css.map": "/static/css/main.fdd2e290.chunk.css.map",
-    "static/js/2.81e38575.chunk.js.LICENSE.txt": "/static/js/2.81e38575.chunk.js.LICENSE.txt",
+    "static/css/main.29cec52e.chunk.css.map": "/static/css/main.29cec52e.chunk.css.map",
+    "static/js/2.b5ffe5a3.chunk.js.LICENSE.txt": "/static/js/2.b5ffe5a3.chunk.js.LICENSE.txt",
     "static/media/Layer_1.png": "/static/media/Layer_1.6f241419.png",
     "static/media/FrontPage.scss": "/static/media/Nomt.64fbbb5b.png",
-    "static/media/anu.png": "/static/media/anu.b7f89b0f.png",
+    "static/media/anu.png": "/static/media/anu.01205c8b.png",
     "static/media/ashid.png": "/static/media/ashid.fcdc6e74.png",
     "static/media/bayarjargal.png": "/static/media/bayarjargal.71beaa47.png",
     "static/media/TeacherPro.scss": "/static/media/littleBC.7de29eee.png",
@@ -23,6 +23,7 @@
     "static/media/herlen.png": "/static/media/herlen.1407a222.png",
     "static/media/huslen.png": "/static/media/huslen.aedcde98.png",
     "static/media/javkha.png": "/static/media/javkha.b34e0d9b.png",
+    "static/media/javkhaa1.png": "/static/media/javkhaa1.66b3815d.png",
     "static/media/logo1.png": "/static/media/logo1.ba35cecc.png",
     "static/media/mandah.png": "/static/media/mandah.3ed67fb8.png",
     "static/media/munguldei.png": "/static/media/munguldei.c55d36b2.png",
@@ -43,8 +44,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5a430776.js",
-    "static/js/2.81e38575.chunk.js",
-    "static/css/main.fdd2e290.chunk.css",
-    "static/js/main.1e378332.chunk.js"
+    "static/js/2.b5ffe5a3.chunk.js",
+    "static/css/main.29cec52e.chunk.css",
+    "static/js/main.fa545af7.chunk.js"
   ]
 }
