@@ -8,7 +8,8 @@ import {
   Route,
   // Link
 } from "react-router-dom";
-import Teachers from "./components/Teachers list/Teachers";
+import Register from "./component/register/Register"
+import Teachers from "./components/TeachersList/Teachers";
 import TeacherPro from "./components/TeacherProfile/TeacherPro";
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/">
           <FrontPage />
+        </Route>
+        <Route path="/register">
+          <Register />
         </Route>
       </Switch>
       <Footer />
