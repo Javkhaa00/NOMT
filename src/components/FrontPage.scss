@@ -5,11 +5,11 @@ body {
 }
 
 .mainDiv {
-    // width: 99vw;
+    width: auto;
     // height: 300vw;
     background-color: #86dbec;
     margin-bottom: 0;
-    background: url('./assets/bc.png');
+    background: url("./assets/bc.png");
     background-size: 100% 100%;
 }
 
@@ -67,7 +67,7 @@ body {
 .btn {
     margin-top: 2vw;
     height: 50px;
-    background-color: #3F83E8;
+    background-color: #3f83e8;
     border-radius: 32px;
     h5 {
         margin-top: 13px;
@@ -78,7 +78,7 @@ body {
     height: 40vw;
     margin-top: 16vw;
     margin-bottom: 16vw;
-    background-image: url('./assets/icons/Nomt.png');
+    background-image: url("./assets/icons/Nomt.png");
     background-size: 100% 100%;
     h1 {
         font-size: 4vw;
