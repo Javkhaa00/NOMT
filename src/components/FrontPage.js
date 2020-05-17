@@ -17,8 +17,8 @@ import school6 from './assets/schools/school6.png'
 import school7 from './assets/schools/school7.png'
 import school8 from './assets/schools/school8.png'
 import downButton from './assets/icons/arrowDown.png'
-import Header from './Header/Header.js'
-import TeacherCard from './TeacherCard';
+import Header from "./Header/Header"
+import TeacherCard from "./TeacherCard";
 
 const FrontPage = () => {
 
