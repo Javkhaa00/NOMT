@@ -17,6 +17,9 @@ function App() {
         <Route path="/teachers">
           <Teachers />
         </Route>
+        <Route path="/teacher">
+          
+        </Route>
         <Route path="/">
           <FrontPage />
         </Route>

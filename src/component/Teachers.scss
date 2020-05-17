@@ -1,6 +1,40 @@
 .teachers {
+    font-family: fira sans;
     margin: 0;
     // height: 330vw;
-    background-image: url('./image/bc.png');
-    background-size: 100% 100%;
+    background-image: url("./image/bc.png");
+    background-size: 100%;
+}
+
+.title {
+    margin-top: 12vw;
+    h1 {
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-size: 4vw;
+        font-weight: bold;
+    }
+}
+
+.titleImage {
+    margin-top: 10vw;
+}
+
+
+.down_button {
+    margin-top: 5vw;
+    padding: 0 !important;
+    height: 50px;
+    width: 50px;
+}
+
+.sofware_intro {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    .sofwareImage {
+        width: 400px !important;
+    }
+    h4 {
+        font-weight: bold;
+    }
 }
