@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from './Header'
-import teach from './image/teach.png'
+import Header from '../Header/Header'
+import teach from '../assets/teach.png'
 import './Teachers.scss'
-import downButton from './image/icons/arrowDown.png'
-import TeacherCard from './TeacherCard.js'
-import sofwareImage from './image/Layer_1.png'
+import downButton from '../assets/icons/arrowDown.png'
+import TeacherCard from '../TeacherCard.js'
+import sofwareImage from '../assets/Layer_1.png'
 
 
 const Teachers = () => {
@@ -107,25 +107,25 @@ const Teachers = () => {
             </div>
             <img alt="down" src={downButton} className="down_button circle col l0 m0 offset-m6 offset-l6"></img>
             <div className="teacher_cards col l10 m10 offset-l1 offset-m1">
-                <h3 style={{ fontWeight: "bold" }}>HSK, MONBUSHO</h3>
+                <h3 style={{ fontWeight: "bold", fontSize: '3vw' }}>HSK, MONBUSHO</h3>
                 <div className="row cardContainer">
                     {
                         MONBUSHO.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
                     }
                 </div>
-                <h3 style={{ fontWeight: "bold" }}>TOEFL, IELTS</h3>
+                <h3 style={{ fontWeight: "bold", fontSize: '3vw' }}>TOEFL, IELTS</h3>
                 <div className="row cardContainer">
                     {
                         toefl.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
                     }
                 </div>
-                <h3 style={{ fontWeight: "bold" }}>PROGRAMMING, SAT SUBJECTS</h3>
+                <h3 style={{ fontWeight: "bold", fontSize: '3vw' }}>PROGRAMMING, SAT SUBJECTS</h3>
                 <div className="row cardContainer">
                     {
                         SAT.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
                     }
                 </div>
-                <h3 style={{ fontWeight: "bold" }}>ADMISSIONS PROCESS, SAR REASONNING</h3>
+                <h3 style={{ fontWeight: "bold", fontSize: '3vw' }}>ADMISSIONS PROCESS, SAR REASONNING</h3>
                 <div className="row cardContainer">
                     {
                         ADMISSIONS.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
@@ -133,9 +133,9 @@ const Teachers = () => {
                 </div>
             </div>
             <div className="sofware_intro col l10 m10 offset-l1 offset-m1 row">
-                <img className="sofwareImage col l5 m5 offset-l1" alt="sofwareImage" src={sofwareImage} />
+                <img className="sofwareImage col l5 m5 offset-l1 offset-m1" alt="sofwareImage" src={sofwareImage} />
                 <h4 className="center col l6 m6"> Хөгжүүлэлтийн баг: </h4>
-                <h4 className="names center col l5 m5 offset-l1">
+                <h4 className="names center col l5 m5 offset-l1 offset-m1">
                     Золбоо /software/
                     Мөнхжавхлан /software/
                     Хонгорзул /software/

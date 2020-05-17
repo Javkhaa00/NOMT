@@ -2,8 +2,9 @@ nav {
     margin-top: 20px;
     background-color: unset;
     box-shadow: none;
-    a {
-        font-size: 1.6vw !important;
+    .titles {
+        margin-left: 40px;
+        font-size: 19px !important;
         font-weight: 500;
     }
     img {
@@ -15,5 +16,8 @@ nav {
     }
     .right {
         margin-top: 1vw;
+        margin-left: 40px;
+        font-size: 19px !important;
+        font-weight: 500;
     }
 }

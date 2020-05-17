@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
-import FrontPage from "./component/FrontPage";
-import Footer from "./component/footer";
+import FrontPage from "./components/FrontPage";
+import Footer from "./components/Footer/footer";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   // Link
 } from "react-router-dom";
-import Teachers from "./component/Teachers";
-import TeacherPro from "./component/TeacherPro";
+import Teachers from "./components/Teachers list/Teachers";
+import TeacherPro from "./components/TeacherProfile/TeacherPro";
 
 function App() {
   return (

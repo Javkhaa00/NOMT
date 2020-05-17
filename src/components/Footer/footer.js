@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './image/icons/logo1.png'
+import logo from '../assets/icons/logo1.png'
 import './footer.scss'
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
                     <img alt="logo" src={logo} />
                 </div>
                 <div className="col l6 m6 offset-l2 offset-m2">
-                    <h4 className="white-text center">Холбоо барих</h4>
+                    <h4 className="center">Холбоо барих</h4>
                     <ul>
                         <li><h6>Утас: +976 99135563</h6></li>
                         <li><h6>Цахин шуудангийн хаяг: nomtonlineacademy@gmail.com</h6></li>
@@ -22,7 +22,7 @@ const Footer = () => {
 
             </div>
             <div className="footer-copyright col l12 m12">
-                <h5 className="container center">
+                <h5 className="container center black-text">
                     copyright © 2020 | Бүх эрх хуулиар хамгаалагдсан
                 </h5>
             </div>
