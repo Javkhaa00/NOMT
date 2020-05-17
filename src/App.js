@@ -8,7 +8,7 @@ import {
   Route,
   // Link
 } from "react-router-dom";
-import Register from "./component/register/Register"
+import Register from "./components/register/Register"
 import Teachers from "./components/TeachersList/Teachers";
 import TeacherPro from "./components/TeacherProfile/TeacherPro";
 
@@ -22,11 +22,11 @@ function App() {
         <Route path="/teacher">
           <TeacherPro />
         </Route>
-        <Route path="/">
-          <FrontPage />
-        </Route>
         <Route path="/register">
           <Register />
+        </Route>
+        <Route path="/">
+          <FrontPage />
         </Route>
       </Switch>
       <Footer />
