@@ -9,11 +9,11 @@ const Header = () => {
             <a href="/" className="brand-logo col l2 m2"><img alt="logo" src={logo} /></a>
             <div id="nav-mobile" className="navbar left col l7 m7 offset-l2 offset-m2 row">
                 <a className="black-text titles" href="/">Сургалтууд</a>
-                <a className="black-text titles" href="/">бидний тухай</a>
-                <a className="black-text titles" href="/">холбоо барих</a>
+                <a className="black-text titles" href="/">Бидний тухай</a>
+                <a className="black-text titles" href="/">Холбоо барих</a>
                 <a className="black-text titles" href="/">Төлбөр тооцоо</a>
             </div>
-            <a className="right black-text" href="/">Нэвтрэх | бүртгүүлэх</a>
+            <a className="right black-text" href="/">Нэвтрэх | Бүртгүүлэх</a>
         </nav>
     )
 }
