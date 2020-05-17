@@ -1,0 +1,35 @@
+.teacherPro {
+    background-image: url('./image/bc.png');
+    background-size: 100%;
+    margin-bottom: 0;
+    height: 100vh;
+    h4 {
+        font-size: 2.5vw;
+    }
+    h5 {
+        font-size: 1.5vw;
+    }
+    h6 {
+        font-size: 1.2vw;
+    }
+}
+
+.Information {
+    margin-top: 10vw;
+}
+
+.teacherImgCircle {
+    height: 5vw;
+    width: 6.2vw !important;
+    margin-top: 1.5vw;
+}
+
+.lessonCard {
+    width: 20vw !important;
+    padding-right: 40px !important;
+    background-image: url('./image/littleBC.png');
+    background-size: 100% 100%;
+    height: 8vw;
+    box-shadow: none;
+    margin-top: 5vw;
+}

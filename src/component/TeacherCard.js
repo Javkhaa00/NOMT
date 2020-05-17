@@ -66,11 +66,14 @@ const TeacherCard = (cin) => {
             return (<img alt="tselmeg" src={tselmeg} />)
 
         if (image === 'tsolmon')
-            return (<img alt="tsolmon" src={tsolmon} />)
-            
+            return (<img alt="tsolmon" src={tsolmon} />)       
+    }
+
+    const onclick = () => {
+        window.location.href='/teacher/' + image;
     }
     return (
-        <div className="card">
+        <div className="card" onClick={onclick}>
             <div className="card-image">
                 {
                     teacherIntro()

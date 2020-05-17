@@ -137,7 +137,7 @@ const FrontPage = () => {
                         teacherInfo.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
                     }
                 </div>
-                <a href="/" className="btn col l2 offset-l9"><h5 style={{ fontWeight: "bold" }}>Бүх багш</h5></a>
+                <a href="/teachers" className="btn col l2 offset-l9"><h5 style={{ fontWeight: "bold" }}>Бүх багш</h5></a>
             </div>
             <div className="signup col l8 m8 offset-l2 offset-m2 row">
                 <h1 className="col l8 m6 offset-l2 offset-m2 center" style={{ fontWeight: "bold" }}>оюундаа хөрөнгө оруулахад бэлэн үү?</h1>

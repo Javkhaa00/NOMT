@@ -9,6 +9,7 @@ import {
   // Link
 } from "react-router-dom";
 import Teachers from "./component/Teachers";
+import TeacherPro from "./component/TeacherPro";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Teachers />
         </Route>
         <Route path="/teacher">
-          
+          <TeacherPro />
         </Route>
         <Route path="/">
           <FrontPage />
