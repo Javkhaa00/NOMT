@@ -4,9 +4,9 @@ body {
     color: #222222;
 }
 
-.container {
-    width: 100vw;
-    height: 300vh;
+.register-container {
+    width: auto;
+    // height: 300vh;
     display: flex;
     flex-direction: column;
     background-color: #86dbec;
@@ -20,7 +20,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20%;
     .bold-text {
         height: 160px;
         width: 800px;

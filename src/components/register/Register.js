@@ -4,7 +4,7 @@ import Header from "../Header/Header"
 
 const Register = () => {
 	return (
-		<div className="container">
+		<div className="register-container">
 			<Header />
 			<div className="text-container">
 				<div className="bold-text">
