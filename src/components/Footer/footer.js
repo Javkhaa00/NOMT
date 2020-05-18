@@ -6,7 +6,7 @@ const Footer = () => {
 
 
     return (
-        <footer className="page-footer row">
+        <footer className="page-footer row" id="footer">
             <div className="col l12 m12 row" style={{marginBottom:'0'}}>
                 <div className="col l4 m4">
                     <img alt="logo" src={logo} />
