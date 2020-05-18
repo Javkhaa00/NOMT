@@ -105,7 +105,7 @@ const Teachers = () => {
                 </div>
                 <img className="titleImage col l5 m5" alt="teach" src={teach} />
             </div>
-            <img alt="down" src={downButton} className="down_button circle col l0 m0 offset-m6 offset-l6"></img>
+            <img alt="down" src={downButton} className="down_button circle"></img>
             <div className="teacher_cards col l10 m10 offset-l1 offset-m1">
                 <h3 style={{ fontWeight: "bold", fontSize: '2.5vw', marginTop: '4vw' }}>HSK, MONBUSHO</h3>
                 <div className="row cardContainer">
