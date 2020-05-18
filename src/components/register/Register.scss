@@ -5,25 +5,36 @@ body {
 }
 
 .mainDiv {
-    // width: 100vw;
-    // height: 300vw;
+    width: 100vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
     background-color: #86dbec;
     margin-bottom: 0;
     background: url('../assets/bc.png');
-    background-size: 100% 100%;
+    background-size: auto;
 }
 
-.first-text {
-    margin-top: 3vw;
-    // font-family: fira sans;
-    .inspiration {
-        margin-top: 10vw;
-        font-weight: bold;
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    font-family: fira sans;
+    .bold-text {
+        color: #222;
+        font: bold;
+        font-size: 65px;
+        text-align: center;
+        letter-spacing: normal;
     }
-    .intro {
-        font-family: Bebas Neue;
-        font-size: 10vw;
-        font-weight: normal;
-        color: #3f83e8;
+    .text {
+        color: #222;
+        font-size: 25px;
+        letter-spacing: 0.42px;
     }
 }
+
+
+
