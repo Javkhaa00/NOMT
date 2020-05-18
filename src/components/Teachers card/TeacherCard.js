@@ -26,49 +26,49 @@ const TeacherCard = (cin) => {
 
     const teacherIntro = () => {
         if (image === 'anu')
-            return (<img className="teacherProfilePicture" alt="anu" src={anu} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="anu" src={anu} />)
 
         if (image === 'bilguun')
-            return (<img className="teacherProfilePicture" alt="bilguun" src={bilguun} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="bilguun" src={bilguun} />)
 
         if (image === 'otgontugs')
-            return (<img className="teacherProfilePicture" alt="otgontugs" src={otgontugs} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="otgontugs" src={otgontugs} />)
 
         if (image === 'sainbilegt')
-            return (<img className="teacherProfilePicture" alt="sainbilegt" src={sainbilegt} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="sainbilegt" src={sainbilegt} />)
 
         if (image === 'ashid')
-            return (<img className="teacherProfilePicture" alt="ashid" src={ashid} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="ashid" src={ashid} />)
 
         if (image === 'bayarjargal')
-            return (<img className="teacherProfilePicture" alt="bayarjargal" src={bayarjargal} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="bayarjargal" src={bayarjargal} />)
 
         if (image === 'ezenbaatar')
-            return (<img className="teacherProfilePicture" alt="ezenbaatar" src={ezenbaatar} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="ezenbaatar" src={ezenbaatar} />)
 
         if (image === 'herlen')
-            return (<img className="teacherProfilePicture" alt="herlen" src={herlen} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="herlen" src={herlen} />)
 
         if (image === 'huslen')
-            return (<img className="teacherProfilePicture" alt="huslen" src={huslen} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="huslen" src={huslen} />)
 
         if (image === 'javkha')
-            return (<img className="teacherProfilePicture" alt="javkha" src={javkhaa} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="javkha" src={javkhaa} />)
 
         if (image === 'mandah')
-            return (<img className="teacherProfilePicture" alt="mandah" src={mandah} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="mandah" src={mandah} />)
 
         if (image === 'munguldei')
-            return (<img className="teacherProfilePicture" alt="munguldei" src={munguldei} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="munguldei" src={munguldei} />)
 
         if (image === 'namuungoo')
-            return (<img className="teacherProfilePicture" alt="namuungoo" src={namuungoo} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="namuungoo" src={namuungoo} />)
 
         if (image === 'tselmeg')
-            return (<img className="teacherProfilePicture" alt="tselmeg" src={tselmeg} />)
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="tselmeg" src={tselmeg} />)
 
         if (image === 'tsolmon')
-            return (<img className="teacherProfilePicture" alt="tsolmon" src={tsolmon} />)       
+            return (<img className="teacherProfilePicture" style={{cursor:'pointer'}} alt="tsolmon" src={tsolmon} />)       
     }
 
     const onclick = () => {
@@ -82,7 +82,7 @@ const TeacherCard = (cin) => {
                 }
             </div>
             <div className="card-content">
-                <h4 style={{ fontWeight: "bold", fontSize: '2.1vw' }}>{name}</h4>
+                <h4 style={{ fontWeight: "bold", fontSize: '2.1vw', cursor:'pointer' }}>{name}</h4>
                 <h5 style={{fontSize: '1.4vw' }}>{lesson}</h5>
             </div>
         </div>
