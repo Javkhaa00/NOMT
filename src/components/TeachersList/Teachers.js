@@ -107,25 +107,25 @@ const Teachers = () => {
             </div>
             <img alt="down" src={downButton} className="down_button circle col l0 m0 offset-m6 offset-l6"></img>
             <div className="teacher_cards col l10 m10 offset-l1 offset-m1">
-                <h3 style={{ fontWeight: "bold", fontSize: '3vw' }}>HSK, MONBUSHO</h3>
+                <h3 style={{ fontWeight: "bold", fontSize: '2.5vw', marginTop: '4vw' }}>HSK, MONBUSHO</h3>
                 <div className="row cardContainer">
                     {
                         MONBUSHO.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
                     }
                 </div>
-                <h3 style={{ fontWeight: "bold", fontSize: '3vw' }}>TOEFL, IELTS</h3>
+                <h3 style={{ fontWeight: "bold", fontSize: '2.5vw', marginTop: '4vw' }}>TOEFL, IELTS</h3>
                 <div className="row cardContainer">
                     {
                         toefl.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
                     }
                 </div>
-                <h3 style={{ fontWeight: "bold", fontSize: '3vw' }}>PROGRAMMING, SAT SUBJECTS</h3>
+                <h3 style={{ fontWeight: "bold", fontSize: '2.5vw', marginTop: '4vw' }}>PROGRAMMING, SAT SUBJECTS</h3>
                 <div className="row cardContainer">
                     {
                         SAT.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
                     }
                 </div>
-                <h3 style={{ fontWeight: "bold", fontSize: '3vw' }}>ADMISSIONS PROCESS, SAR REASONNING</h3>
+                <h3 style={{ fontWeight: "bold", fontSize: '2.5vw', marginTop: '4vw' }}>ADMISSIONS PROCESS, SAR REASONNING</h3>
                 <div className="row cardContainer">
                     {
                         ADMISSIONS.map((cur, index) => <TeacherCard key={index} name={cur.name} lesson={cur.lesson} image={cur.image} />)
