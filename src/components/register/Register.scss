@@ -4,7 +4,7 @@ body {
     color: #222222;
 }
 
-.mainDiv {
+.container {
     width: 100vw;
     height: 300vh;
     display: flex;
@@ -12,7 +12,7 @@ body {
     background-color: #86dbec;
     margin-bottom: 0;
     background: url('../assets/bc.png');
-    background-size: auto;
+    background-size: 100%;
 }
 
 .text-container {
