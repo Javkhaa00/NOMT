@@ -22,15 +22,25 @@ body {
     align-items: center;
     height: 20%;
     .bold-text {
+        height: 160px;
+        width: 800px;
         color: #222;
         font: bold;
         font-size: 65px;
+        font-weight: 700;
+        line-height: 80px;
         text-align: center;
         letter-spacing: normal;
     }
     .text {
+        height: 23px;
+        width: 455px;
         color: #222;
-        font-size: 25px;
+        font-family: "Fira Sans";
+        font-size: 21px;
+        letter-spacing: 0.42px;
+        line-height: 25px;
+        text-align: center;
     }
 }
 
