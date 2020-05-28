@@ -1,0 +1,65 @@
+.teacherProfilePicture {
+    height: 250px;
+    width: 225px !important;
+    border-radius: 20px !important;
+    cursor: pointer;
+    object-fit: cover;
+    &:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    }
+}
+
+.card {
+    width: 225px;
+}
+
+.card-content {
+    padding: 0 !important;
+    color: black;
+    h4 {
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-weight: bold;
+        font-size: 30px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        line-height: 36px;
+    }
+
+    h5 {
+        margin-top: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        letter-spacing: 0.42px;
+        line-height: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 1399px) {
+    .teacherProfilePicture {
+        height: 200px;
+        width: 180px !important;
+        border-radius: 20px !important;
+    }
+    
+    .card {
+        width: 180px;
+    }
+    
+    .card-content {
+        h4 {
+            margin-top: 16px;
+            font-size: 25px;
+            letter-spacing: 0.8px;
+            line-height: 28px;
+        }
+    
+        h5 {
+            margin-top: 8px;
+            font-size: 16px;
+            letter-spacing: 0.33px;
+            line-height: 20px;
+        }
+    }
+}

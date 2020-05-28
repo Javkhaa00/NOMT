@@ -1,0 +1,83 @@
+.teachers {
+    font-family: 'Fira sans';
+    margin: 0;
+    background-image: url("../assets/bc.png");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutUsTitle {
+    margin-top: 135px;
+    display: flex;
+    .title {
+        margin-top: 44px;
+        margin-left: 0 !important;
+        h1 {
+            margin-right: 0 !important;
+            width: 539px;
+            color: #222;
+            font-size: 61px;
+            font-weight: 700;
+            line-height: 80px;
+            margin-bottom: 0;
+        }
+    }
+    .titleImage {
+        margin-top: 0;
+        height: 317.74px;
+        width: 422.3px !important;
+    }
+}
+
+
+.down_button_teachers {
+    margin-top: 146px !important;
+    padding: 0 !important;
+    height: 50px;
+    width: 50px;
+}
+
+.sofware_intro {
+    margin-top: 120px;
+    margin-bottom: 326px;
+    height: 477px;
+    width: 794px;
+    display: flex;
+    justify-content: space-around;
+    .sofwareImage {
+        width: 274.39px !important;
+        height: 382.08px !important;
+    }
+    .sofwareInformation {
+        width: 327px;
+    }
+    .namesTitle {
+        height: 36px;
+        width: 327px;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 36px;
+    }
+    .names {
+        height: 92px;
+        width: 250px;
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: 0.38px;
+        line-height: 23px;
+    }
+}
+
+.teacher_cards {
+    h3 {
+        margin-left: 33px;
+        height: 36px;
+        width: 590px;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 36px;
+    }
+}

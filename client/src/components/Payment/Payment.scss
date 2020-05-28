@@ -1,0 +1,35 @@
+.pay {
+    background: url('../assets/bc.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.allText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 95px auto 0px;
+    width: 100vw;
+}
+.head {
+    display: inline-block;
+    text-align: center;
+    color: #222;
+    font-family: "Fira Sans";
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 78px;
+}
+.bundle {
+    margin-top: 37px;
+    margin-bottom: 541px;
+    display: inline-block;
+    height: 100px;
+    width: 900px;
+    color: #222;
+    font-family: "Fira Sans";
+    font-size: 21px;
+    letter-spacing: 0.42px;
+    line-height: 25px;
+}

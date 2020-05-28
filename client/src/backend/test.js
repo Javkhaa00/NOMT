@@ -23,18 +23,12 @@ app.get('/', (req, res) => {
     console.log('hello world')
 })
 
-app.post('/sign-up', function (req, res) {
-    var first_name = req.body.first_name;
-    var second_name = req.body.second_name;
+app.post('/sign_up', function (req, res) {
+    var name = req.body.name;
     var email = req.body.email;
     var pass = req.body.password;
-    var phone = req.body.phone_number;
-    var class_number = req.body.class;
-    var school = req.body.school;
-    var year = req.body.year;
-    var month = req.body.month;
-    var day = req.body.day;
-    console.log(first_name, second_name, email, pass, phone, school, class_number, year, month, day);
+    var phone = req.body.phone;
+    console.log(name, email, pass, phone);
     res.send("success")
 })
 app.options('/url...', (req, res, next) => {

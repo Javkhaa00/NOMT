@@ -1,0 +1,107 @@
+body {
+    overflow-x: hidden;
+}
+.page-footer {
+    color: black;
+    width: 100%;
+    background-color: #4fc0d7;
+    height: 306px;
+    margin-bottom: 0;
+    padding: 0;
+    .centerBigFooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;;
+        .big-footer {
+            height: 247px;
+            width: 1440px;
+            background-color: #4FC0D7;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+    }
+    
+    }
+    .line {
+        margin-bottom: 0;
+        height: 3px;
+        background: linear-gradient(90deg, #4fc0d7 0%, white 50%, #4fc0d7 100%);
+    }
+    .footer-copyright {
+        background-color: #4fc0d7;
+    }
+    .contact {
+        font-family: "Fira Sans";
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 36px;
+        margin-top: 20px ;
+        margin-bottom: 7px;
+    }
+    .container {
+        height: 56px;   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h6 {
+        font-size: 21px;
+        margin: 0;
+    }
+    .information {
+        width: 609px;
+        color: #222;
+        font-family: "Fira Sans";
+        font-size: 21px !important;
+        letter-spacing: 0.42px !important;
+        line-height: 25px !important;
+        margin-top: 0px ;
+    }
+    img {
+        margin-left: 10vw;
+        height: 180px;
+    }
+}
+
+
+@media only screen and (max-width: 1399px) {
+    .page-footer {
+        height: 244px;
+        .big-footer {
+            height: 197px;
+            width: 1152px;
+        }
+        .line {
+            height: 2.4px;
+        }
+        .contact {
+            font-family: "Fira Sans";
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 0.8px;
+            line-height: 28px;
+            margin-top: 16px ;
+            margin-bottom: 5.6px;
+        }
+        .container {
+            height: 44px;
+        }
+        h6 {
+            font-size: 16px;
+        }
+        .information {
+            width: 487px;
+            font-size: 16px !important;
+            letter-spacing: 0.33px !important;
+            line-height: 20px !important;
+        }
+        img {
+            margin-left: 10vw;
+            height: 144px;
+        }
+    }
+}

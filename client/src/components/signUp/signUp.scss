@@ -1,0 +1,186 @@
+body {
+  font-family: fira sans;
+  font-weight: 400;
+  color: #222222;
+}
+
+.down_button {
+  padding: 0 !important;
+  height: 50px;
+  width: 50px;
+  margin-top: 0 !important;
+  margin-bottom: 346px !important;
+}
+
+
+.head-text {
+  font-size: 30px;
+  color: #222;
+  font-weight: bolder;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+.register-container {
+  width: auto;
+  // height: 300vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #86dbec;
+  margin-bottom: 0;
+  background: url("../assets/bc.png");
+  background-size: 100%;
+}
+
+.text-container {
+  height: 537px;
+  width: 858px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .bold-text {
+    height: 160px;
+    width: 800px;
+    color: #222;
+    font: bold;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: normal;
+  }
+  .text {
+    height: 23px;
+    width: 455px;
+    color: #222;
+    font-family: "Fira Sans";
+    font-size: 21px;
+    letter-spacing: 0.42px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 294px;
+}
+
+.sign-up-input {
+  width: 381px !important;
+  border-radius: 114px !important;
+  border: 2px solid #222 !important;
+  line-height: 23px;
+  letter-spacing: 0.38px;
+  margin: 0 0 0 !important;
+  font-family: "Fira Sans" !important;
+  color: #222 !important;
+  font-size: 19px !important;
+  font-weight: bolder!important;
+  padding-inline-start: 15px !important;
+}
+
+.input {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 96px;
+  justify-content: space-between !important;
+  width: 400px;
+}
+
+.supp-text {
+  font-size: 21px;
+  font-family: "Fira Sans";
+  line-height: 25px;
+  width: 400px;
+  margin-top: 13px;
+}
+
+.birth {
+  display: flex;
+  justify-content: row;
+
+  .year {
+    width: 133px !important;
+    border: 2px solid #222 !important;
+    border-radius: 114px !important;
+    margin-right: 20px !important;
+    margin-bottom: 0px !important;
+    font-family: "Fira Sans" !important;
+    font-size: 19px !important;
+    font-weight: bolder!important;
+    padding-inline-start: 15px !important;
+    text-align: center;
+    ;
+  }
+  .month {
+    width: 85px !important;
+    border: 2px solid #222 !important;
+    border-radius: 114px !important;
+    margin-right: 20px !important;
+    margin-bottom: 0px !important;
+    font-family: "Fira Sans" !important;
+    font-size: 19px !important;
+    font-weight: bolder!important;
+    padding-inline-start: 15px !important;
+    text-align: center;
+  }
+  .day {
+    width: 85px !important;
+    border: 2px solid #222 !important;
+    border-radius: 114px !important;
+    margin-bottom: 0px !important;
+    font-family: "Fira Sans" !important;
+    font-size: 19px !important;
+    font-weight: bolder!important;
+    padding-inline-start: 15px !important;
+    text-align: center;
+  }
+}
+.sign-in {
+  font-family: "Fira Sans";
+  color: black;
+  font-size: 21px;
+}
+
+.register {
+  font-family: "Fira Sans";
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.27px;
+  font-weight: bolder;
+  height: 50px;
+  width: 202px;
+  margin: 0 !important;
+  text-transform: none;
+  border-radius: 114px;
+  background-color: #3F83E8;
+}
+.bottom {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 35px 0 0 0 !important;
+}
+
+::placeholder {
+  color: #222;
+  opacity: 0.5;
+}
+
+
+.error {
+  border: 2px solid red !important;
+}
+
+.correction {
+  border: 2px solid black !important;
+}

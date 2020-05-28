@@ -1,0 +1,63 @@
+.Information {
+    margin-top: 105px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 242px;
+    margin-left: -155px;
+}
+
+.teacherPro {
+    background-image: url('../assets/bc.png');
+    background-size: 100%;
+    width: 100vw;
+    margin-bottom: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h4 {
+        font-family: 'Fira Sans' !important;
+        font-weight: bold !important;
+        font-size: 30px !important;
+        line-height: 36px !important;
+        letter-spacing: 1px !important;
+    }
+    h5 {
+        display: inline-block;
+        font-family: "Fira Sans";
+        font-size: 21px;
+        letter-spacing: 0.42px;
+        line-height: 25px;
+    }
+}
+
+.teacherImg {
+    height: 250px;
+    width: 225px;
+    margin-left: 180px;
+}
+
+.lesson-card {
+    box-shadow: none;
+    margin: 67px 0px 0px 180px;
+    padding: 14px 19px;
+    font-family: 'Fira Sans';
+    height: 111px;
+    width: 257px;
+    border-radius: 20px;
+    background-image: url('../assets/littleBC.png');
+    background-size: cover;
+}
+
+.subtitle {
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+
+.text {
+    width: 795px;
+    margin-left: 60px;
+}

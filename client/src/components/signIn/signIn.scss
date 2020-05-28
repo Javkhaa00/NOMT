@@ -1,0 +1,99 @@
+body {
+    font-family: "Fira sans";
+    font-weight: 400;
+    color: #222222;
+}
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 289px;    
+}
+
+.down_button {
+    background-image: url('../assets/icons/arrowDown.png');
+    background-size: cover;
+}
+
+.register-container {
+    width: auto;
+    // height: 300vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #86dbec;
+    margin-bottom: 0;
+    background: url("../assets/bc.png");
+    background-size: 100%;
+}
+
+.head-text {
+    font-size: 30px;
+    color: #222;
+    font-weight: bolder;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+.input {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 96px;
+    justify-content: space-between !important;
+    width: 400px;
+}
+
+.text-container {
+height: 537px;
+width: 858px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    .bold-text {
+        height: 160px;
+        width: 800px;
+        color: #222;
+        font: bold;
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 80px;
+        text-align: center;
+        letter-spacing: normal;
+    }
+    .text {
+        height: 23px;
+        width: 455px;
+        color: #222;
+        font-family: "Fira Sans";
+        font-size: 21px;
+        letter-spacing: 0.42px;
+        line-height: 25px;
+        text-align: center;
+    }
+}
+
+.sign-in {
+    font-family: "Fira Sans";
+    color: black;
+    font-size: 21px;
+}
+
+
+.sign-in-input {
+    border: 43px !important;
+    width: 381px !important;
+    border-radius: 114px !important;
+    border: 2px solid #222 !important;
+    line-height: 23px;
+    letter-spacing: 0.38px;
+    margin: 0 0 0 !important;
+    font-family: "Fira Sans" !important;
+    color: #222 !important;
+    font-size: 19px !important;
+    font-weight: bolder!important;
+    padding-inline-start: 15px !important;
+    box-shadow: 0 3px 0 0 #F44336;
+}
+  
+  
