@@ -24,18 +24,21 @@ app.get('/', (req, res) => {
 })
 
 app.post('/sign-up', function (req, res) {
-    var first_name = req.body.first_name;
-    var second_name = req.body.second_name;
-    var email = req.body.email;
-    var pass = req.body.password;
-    var phone = req.body.phone_number;
-    var class_number = req.body.class;
-    var school = req.body.school;
-    var year = req.body.year;
-    var month = req.body.month;
-    var day = req.body.day;
-    console.log(first_name, second_name, email, pass, phone, school, class_number, year, month, day);
-    res.send("success")
+  const UI = {
+    "first_name": req.body.first_name,
+    "second_name": req.body.second_name,
+    "email": req.body.email,
+    "pass": req.body.password,
+    "phone": req.body.phone_number,
+    "class_number": req.body.class,
+    "school": req.body.school,
+    "year": req.body.year,
+    "month": req.body.month,
+    "day": req.body.day
+  }
+    console.log(UI.first_name, UI.second_name, UI.email, UI.pass, UI.phone, UI.school, UI.class_number, UI.year, UI.month, UI.day);
+    // res.send("success")
+    res.redirect('/sign-in')
 })
 app.options('/url...', (req, res, next) => {
     res.header('Access-Control-Allow-Origin', "*");
