@@ -40,6 +40,17 @@ app.post('/sign-up', function (req, res) {
     // res.send("success")
     res.redirect('/sign-in')
 })
+
+app.post('/sign-in', function (req, res) {
+  const UI = {
+    "email": req.body.email,
+    "pass": req.body.password
+  }
+    console.log(UI.email, UI.pass);
+    // res.send("success")
+    res.redirect('/')
+})
+
 app.options('/url...', (req, res, next) => {
     res.header('Access-Control-Allow-Origin', "*");
     res.header('Access-Control-Allow-Methods', 'POST');
@@ -47,12 +58,6 @@ app.options('/url...', (req, res, next) => {
     res.header("Access-Control-Max-Age", "1728000");
     return res.sendStatus(200);
 });
-
-// app.get('/', function (req, res) {
-//     res.set({
-//         'Access-control-Allow-Origin': '*'
-//     })
-// }).listen(3000)
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => console.log(`Example app listening at http://localhost:${PORT}`))

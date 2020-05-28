@@ -31,15 +31,15 @@ const SingIn = () => {
             </div>
             <div className="down_button"></div>
 
-            <form id="sign-in" className="sign-in-container row" action="/" onSubmit={e => e.preventDefault()}>
+            <form id="sign-in" className="sign-in-container row" action="/sign-in" method="post" onSubmit={e => e.preventDefault()}>
                 <div className="input">
                     <label className="head-text left align">И-МАЙЛ</label>
-                    <input placeholder="ЦАХИМ ЩУУДАНГИЙН ХАЯГ" id="email" type="text" className="sign-in-input validate"></input>
+                    <input placeholder="ЦАХИМ ЩУУДАНГИЙН ХАЯГ" id="email" type="text" name="email" className="sign-in-input validate"></input>
                 </div>
 
                 <div className="input">
 					<label className="head-text left-align">НУУЦ ДУГААР</label>
-					<input placeholder="КОДОО ОРУУЛНА УУ" minLength="8" id="password" type="password" className="sign-in-input validate"></input>
+					<input placeholder="КОДОО ОРУУЛНА УУ" minLength="8" id="password" name="password" type="password" className="sign-in-input validate"></input>
 				</div>
 
                 <div className="bottom">
